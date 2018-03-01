@@ -21,6 +21,10 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'org.springframework.boot'
 
+springBoot {
+    executable = true
+}
+
 jar {
     baseName = 'ersaapi'
     version =  '0.1.0'
