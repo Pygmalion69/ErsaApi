@@ -29,8 +29,8 @@ Note: timestamps are UNIX epochs in seconds.
     
 #### Method
 
-    `POST`
-    
+    `POST`
+    
 #### Data Params
 
     `{"origin":<string>,temperature:<double>,humidity:<double>}`
